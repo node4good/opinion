@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="tester1" type="NodeJSConfigurationType" factoryName="Node.js" singleton="true" path-to-node="$NODE_PATH$/node12.cmd" path-to-js-file="example/tester1.js" working-dir="$PROJECT_DIR$">
+    <browser start="false" url="" with-js-debugger="false" />
+    <RunnerSettings RunnerId="NodeJS.debug" />
+    <RunnerSettings RunnerId="NodeJS.run" />
+    <ConfigurationWrapper RunnerId="NodeJS.debug" />
+    <ConfigurationWrapper RunnerId="NodeJS.run" />
+    <method />
+  </configuration>
+</component>

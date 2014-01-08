@@ -1,11 +1,9 @@
-# koa-common
-
-  Aggregate middleware module for lazy people.
+Originally forked from `koajs/koa-common`
 
 ## Installation
 
 ```js
-$ npm install koa-common
+$ npm install koa-opinion
 ```
 
 ## Middleware

@@ -1,29 +1,29 @@
 {
-  "name": "koa-common",
-  "description": "Common middleware aggregate module for lazy people",
-  "repository": "koajs/common",
-  "version": "1.1.0",
+  "name": "koa-opinions",
+  "description": "koa, ready to use, and that my opinion!",
+  "repository": "Empeeric/opinions",
+  "version": "1.0.0",
   "keywords": [
     "koa",
-    "middleware"
+    "middleware",
+    "framework",
+    "boilerpalte"
   ],
-  "files": [
-    "index.js"
-  ],
-  "devDependencies": {
-    "koa": "~0.1.2"
-  },
   "license": "MIT",
   "dependencies": {
-    "koa-mount": "~1.2.2",
-    "koa-response-time": "~1.0.1",
-    "koa-logger": "~1.1.0",
-    "koa-favicon": "~1.0.1",
-    "koa-etag": "~1.2.1",
-    "koa-static": "~1.4.0",
-    "koa-rewrite": "~1.0.0",
-    "koa-conditional-get": "~1.0.1",
-    "koa-compress": "~1.0.0",
-    "koa-ratelimit": "~1.0.1"
+    "koa": "",
+    "koa-mount": "",
+    "koa-response-time": "",
+    "koa-logger": "",
+    "koa-favicon": "",
+    "koa-etag": "",
+    "koa-static": "",
+    "koa-rewrite": "",
+    "koa-conditional-get": "",
+    "koa-compress": "",
+    "koa-ratelimit": "",
+    "koa-session": "",
+    "koa-csrf": "",
+    "lodash": ""
   }
 }
