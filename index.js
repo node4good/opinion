@@ -1,13 +1,14 @@
 "use strict";
-var common = require('./lib');
-var koa = require('koa');
 var _ = require('lodash');
+var koa = require('koa');
+var common = require('./lib/common');
 
 
 var DEFAULT_MIDDLEWARE_ORDER = [
     common.NoKeepAlive,
     common.etag,
     common.logger,
+    common.statics,
     common.responseTime,
     common.compress,
     common.conditionalGet,
@@ -17,12 +18,11 @@ var DEFAULT_MIDDLEWARE_ORDER = [
 
 
 module.exports = function koa_common(options) {
-    var app = koa();
-    _.assign(app, options);
+    var app = _.assign(koa(), options);
     var middlewareOrder = app.middlewareOrder || DEFAULT_MIDDLEWARE_ORDER;
     _(middlewareOrder)
         .map(function (mw) {
-            return mw.apply(app);
+            return mw.call(app, app[mw.name]);
         })
         .compact()
         .forEach(function (gen) {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{Node.js v0.10.24 Core Modules, express-DefinitelyTyped, jQuery-2.0.0, lodash-DefinitelyTyped, node_modules}" />
+    <file url="PROJECT" libraries="{Node.js Dependencies for opinions, Node.js v0.11.10 Core Modules, express-DefinitelyTyped, lodash-DefinitelyTyped}" />
     <includedPredefinedLibrary name="Node.js Globals" />
   </component>
 </project>

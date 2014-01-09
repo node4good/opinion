@@ -2,8 +2,10 @@
   <dictionary name="Refael">
     <words>
       <w>csrf</w>
+      <w>etag</w>
       <w>koacommon</w>
       <w>koajs</w>
+      <w>ratelimit</w>
     </words>
   </dictionary>
 </component>
