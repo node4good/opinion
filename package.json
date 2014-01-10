@@ -24,9 +24,6 @@
     "koa-ratelimit": "",
     "koa-session": "",
     "koa-csrf": "",
-    "lodash": "",
-    "koa-route": "",
-    "koa-render": "",
-    "dustjs-linkedin": ""
+    "lodash": ""
   }
 }

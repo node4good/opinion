@@ -1,0 +1,2 @@
+-R spec
+--require ./test/common/common.js
