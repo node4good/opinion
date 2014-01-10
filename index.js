@@ -4,25 +4,28 @@ var koa = require('koa');
 var common = require('./lib/common');
 
 
-var DEFAULT_MIDDLEWARE_ORDER = [
-    common.NoKeepAlive,
-    common.etag,
-    common.logger,
-    common.statics,
-    common.responseTime,
-    common.compress,
-    common.conditionalGet,
-    common.session,
-    common.csrf
-];
+var DEFAULT_MIDDLEWARE_ORDER = {
+    NoKeepAlive: common.NoKeepAlive,
+    etag: common.etag,
+    logger: common.logger,
+    statics: common.statics,
+    responseTime: common.responseTime,
+    compress: common.compress,
+    conditionalGet: common.conditionalGet,
+    session: common.session,
+    csrf: common.csrf,
+    render: common.render
+};
 
 
 module.exports = function koa_common(options) {
     var app = _.assign(koa(), options);
     var middlewareOrder = app.middlewareOrder || DEFAULT_MIDDLEWARE_ORDER;
     _(middlewareOrder)
-        .map(function (mw) {
-            return mw.call(app, app[mw.name]);
+        .map(function (mwSetup, name) {
+            var raw = app[name];
+            var args = raw && (Array.isArray(raw) ? raw : [raw]);
+            return mwSetup.apply(app, args);
         })
         .compact()
         .forEach(function (gen) {

@@ -9,12 +9,13 @@ var app = opinions({
     keys: ['hell yeah'],
     statics: {
         root: 'assets'
-    }
+    },
+    render: ['views', 'dust']
 });
 
 
 app.use(function* () {
-    this.body = 'Hello World';
+    this.body = yield this.render('hello-world');
 });
 
 
