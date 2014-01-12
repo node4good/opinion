@@ -21,20 +21,6 @@
             padding: 0;
             margin: 0;
         }
-        #heading {
-            position: absolute;
-            top: 50%;
-            margin-top: -150px;
-            text-align: center;
-            width: 100%;
-        }
-        #logo {
-            font: 150px 'Italiana', sans-serif;
-            text-transform: lowercase;
-        }
-        #tagline {
-            font-size: 16px;
-        }
         </style>
     </head>
     <body>
