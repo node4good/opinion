@@ -6,12 +6,12 @@ var common = require('./lib/common');
 
 var DEFAULT_MIDDLEWARE_ORDER = {
     NoKeepAlive: common.NoKeepAlive,
-    etag: common.etag,
-    logger: common.logger,
-    statics: common.statics,
     responseTime: common.responseTime,
+    logger: common.logger,
     compress: common.compress,
     conditionalGet: common.conditionalGet,
+    etag: common.etag,
+    statics: common.statics,
     session: common.session,
     csrf: common.csrf,
     render: common.render
