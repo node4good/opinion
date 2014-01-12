@@ -1,5 +1,6 @@
 "use strict";
 Error.stackTraceLimit = Infinity;
+process.chdir(__dirname)
 var opinions = require('../..');
 var conf = {
     PORT: process.env.PORT || 80
