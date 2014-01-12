@@ -24,6 +24,20 @@
     "koa-ratelimit": "",
     "koa-session": "",
     "koa-csrf": "",
-    "lodash": ""
+    "koa-route": "",
+    "koa-render": "",
+    "lodash": "",
+    "lodash-contrib": "",
+    "dustjs-linkedin": ""
+  },
+  "devDependencies": {
+    "istanbul": "",
+    "chai": "",
+    "mocha": ""
+  },
+  "scripts": {
+    "start": "node --harmony ./example/kitchensink/app.js",
+    "test": "node ./node_modules/mocha/bin/_mocha",
+    "cover": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -x generated/**"
   }
 }

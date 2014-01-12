@@ -223,51 +223,30 @@
         }
       }
     },
-    "koa-render": {
-      "version": "0.2.1",
-      "from": "koa-render@latest",
-      "resolved": "http://registry.npmjs.org/koa-render/-/koa-render-0.2.1.tgz",
-      "dependencies": {
-        "co-views": {
-          "version": "0.1.0",
-          "from": "co-views@*",
-          "resolved": "http://registry.npmjs.org/co-views/-/co-views-0.1.0.tgz",
-          "dependencies": {
-            "co-render": {
-              "version": "0.0.1",
-              "from": "co-render@0.0.1",
-              "resolved": "http://registry.npmjs.org/co-render/-/co-render-0.0.1.tgz",
-              "dependencies": {
-                "consolidate": {
-                  "version": "0.9.1",
-                  "from": "consolidate@~0.9.1"
-                }
-              }
-            }
-          }
-        },
-        "debug": {
-          "version": "0.7.4",
-          "from": "debug@~0.7.4"
-        },
-        "merge": {
-          "version": "1.0.1",
-          "from": "merge@git://github.com/yields/merge",
-          "resolved": "git://github.com/yields/merge#2f357cb501cd06f1a86394b7817e5df73c53f644"
-        }
-      }
-    },
     "lodash": {
       "version": "2.4.1",
       "from": "lodash@"
     },
     "lodash-contrib": {
       "version": "241.3.1",
-      "from": "lodash-contrib@"
+      "from": "lodash-contrib@241.3.1",
+      "resolved": "http://registry.npmjs.org/lodash-contrib/-/lodash-contrib-241.3.1.tgz"
     },
     "dustjs-linkedin": {
       "version": "2.2.2",
       "from": "dustjs-linkedin@latest"
+    },
+    "dustjs-helpers": {
+      "version": "1.1.1",
+      "from": "dustjs-helpers@"
+    },
+    "consolidate": {
+      "version": "0.10.0",
+      "from": "consolidate@"
+    },
+    "debug": {
+      "version": "0.7.4",
+      "from": "debug@"
     }
   }
 }
