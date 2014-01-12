@@ -39,5 +39,8 @@
     "start": "node --harmony ./example/kitchensink/app.js",
     "test": "node ./node_modules/mocha/bin/_mocha",
     "cover": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -x generated/**"
+  },
+  "engines": {
+    "node": "0.11.x"
   }
 }
