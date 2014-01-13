@@ -1,4 +1,6 @@
-Originally forked from `koajs/koa-common`
+Originally forked from `koajs/common` 
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Empeeric/opinions/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 ## Installation
 
