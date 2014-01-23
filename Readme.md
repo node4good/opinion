@@ -1,11 +1,9 @@
 Originally forked from `koajs/common` 
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Empeeric/opinions/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
 ## Installation
 
 ```js
-$ npm install koa-opinion
+$ npm install opinion
 ```
 
 ## Middleware
@@ -26,3 +24,8 @@ $ npm install koa-opinion
 ## License
 
   MIT
+
+## Postamble
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Empeeric/opinions/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
