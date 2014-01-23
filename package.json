@@ -1,7 +1,7 @@
 {
-  "name": "koa-opinions",
+  "name": "koa-opinion",
   "description": "koa, ready to use, and that my opinion!",
-  "repository": "Empeeric/opinions",
+  "repository": "Empeeric/opinion",
   "version": "1.0.1",
   "keywords": [
     "koa",
