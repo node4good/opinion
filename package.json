@@ -3,6 +3,7 @@
   "description": "this is my opinion on koa and stuff",
   "repository": "Empeeric/opinion",
   "version": "1.0.0",
+  "main": "lib/index.js",
   "keywords": [
     "opinion",
     "koa",
@@ -29,7 +30,9 @@
     "koa-render": "",
     "lodash": "",
     "lodash-contrib": "",
-    "dustjs-linkedin": ""
+    "consolidate": "",
+    "dustjs-linkedin": "",
+    "dustjs-helpers": ""
   },
   "devDependencies": {
     "istanbul": "",
@@ -37,9 +40,9 @@
     "mocha": ""
   },
   "scripts": {
-    "start": "node --harmony ./example/kitchensink/app.js",
+    "start": "node --harmony example/kitchensink/app.js",
     "test": "mocha",
-    "cover": "isnatbul cover ./node_modules/mocha/bin/_mocha -x generated/**"
+    "cover": "istanbul cover node_modules/mocha/bin/mocha -x generated/**"
   },
   "engines": {
     "node": "0.11.x"
