@@ -1,9 +1,10 @@
 {
-  "name": "koa-opinion",
-  "description": "koa, ready to use, and that my opinion!",
+  "name": "opinion",
+  "description": "this is my opinion on koa and stuff",
   "repository": "Empeeric/opinion",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "keywords": [
+    "opinion",
     "koa",
     "middleware",
     "framework",
@@ -37,8 +38,8 @@
   },
   "scripts": {
     "start": "node --harmony ./example/kitchensink/app.js",
-    "test": "node ./node_modules/mocha/bin/_mocha",
-    "cover": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -x generated/**"
+    "test": "mocha",
+    "cover": "isnatbul cover ./node_modules/mocha/bin/_mocha -x generated/**"
   },
   "engines": {
     "node": "0.11.x"
