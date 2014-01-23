@@ -1,4 +1,6 @@
-Originally forked from `koajs/common` 
+# koa opinions
+
+Originally forked from `koajs/common`
 
 ## Installation
 
@@ -25,7 +27,6 @@ $ npm install opinion
 
   MIT
 
-## Postamble
+### Postamble
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Empeeric/opinions/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
