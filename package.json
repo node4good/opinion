@@ -13,28 +13,31 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "koa": "",
-    "koa-mount": "",
-    "koa-response-time": "",
-    "koa-logger": "",
-    "koa-favicon": "",
-    "koa-etag": "",
-    "koa-static": "",
-    "koa-rewrite": "",
-    "koa-conditional-get": "",
-    "koa-compress": "",
-    "koa-ratelimit": "",
-    "koa-session": "",
-    "koa-csrf": "",
-    "koa-route": "",
-    "koa-render": "",
-    "lodash": "",
-    "lodash-contrib": "",
+    "await-event": "",
+    "chanel": "",
+    "co-fs-plus": "",
     "consolidate": "",
+    "dustjs-helpers": "",
     "dustjs-linkedin": "",
-    "dustjs-helpers": ""
+    "koa": "",
+    "koa-compress": "",
+    "koa-conditional-get": "",
+    "koa-csrf": "",
+    "koa-etag": "",
+    "koa-favicon": "",
+    "koa-logger": "",
+    "koa-mount": "",
+    "koa-ratelimit": "",
+    "koa-render": "",
+    "koa-response-time": "",
+    "koa-rewrite": "",
+    "koa-route": "",
+    "koa-session": "",
+    "koa-static": "",
+    "lodash-contrib": ""
   },
   "devDependencies": {
+    "debug": "",
     "istanbul": "",
     "chai": "",
     "mocha": ""
@@ -45,6 +48,6 @@
     "cover": "istanbul cover node_modules/mocha/bin/mocha -x generated/**"
   },
   "engines": {
-    "node": "0.11.x"
+    "node": "> 0.11.8"
   }
 }
