@@ -2,7 +2,7 @@
   "name": "opinion",
   "description": "this is my opinion on koa and stuff",
   "repository": "Empeeric/opinion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "keywords": [
     "opinion",
