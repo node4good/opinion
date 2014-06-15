@@ -9,6 +9,7 @@
     <orderEntry type="library" name="lodash-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="Node.js Dependencies for opinions" level="project" />
     <orderEntry type="library" name="Node.js v0.11.10 Core Modules" level="application" />
+    <orderEntry type="library" name="Node.js v0.11.14-pre Core Modules" level="application" />
   </component>
 </module>
 

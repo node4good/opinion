@@ -5,6 +5,17 @@
         <div id="heading">
             <h1 id="logo">Koa Opinions</h1>
             <p id="tagline">koa, ready to use, and that my opinion!</p>
+            <p id="push_target">###</p>
         </div>
     </section>
 {/body}
+
+{<scripts}
+<script>
+    var $push_target = $('#push_target');
+    var sock = io();
+    sock.on('gaga', function (data) {
+        $push_target.text(data);
+    });
+</script>
+{/scripts}
