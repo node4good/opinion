@@ -1,48 +1,54 @@
 {
-   "dependencies" : {
-      "await-event" : "",
-      "chanel" : "",
-      "co-fs-plus" : "",
-      "consolidate" : "",
-      "debug" : "",
-      "dustjs-helpers" : "",
-      "dustjs-linkedin" : "",
-      "koa" : "",
-      "koa-compress" : "",
-      "koa-conditional-get" : "",
-      "koa-csrf" : "",
-      "koa-etag" : "",
-      "koa-favicon" : "",
-      "koa-logger" : "",
-      "koa-mount" : "",
-      "koa-ratelimit" : "",
-      "koa-render" : "",
-      "koa-response-time" : "",
-      "koa-rewrite" : "",
-      "koa-route" : "",
-      "koa-session" : "",
-      "koa-static" : "",
-      "lodash-contrib" : ""
-   },
-   "description" : "this is my opinion on koa and stuff",
-   "devDependencies" : {
-      "chai" : "",
-      "debug" : "",
-      "istanbul" : "",
-      "mocha" : ""
-   },
-   "enginesStrict" : {
-      "node" : ">= 0.11.13"
-   },
-   "keywords" : [ "opinion", "koa", "middleware", "framework", "boilerpalte" ],
-   "license" : "MIT",
-   "main" : "lib/index.js",
-   "name" : "opinion",
-   "repository" : "Empeeric/opinion",
-   "scripts" : {
-      "cover" : "istanbul cover node_modules/mocha/bin/mocha -x generated/**",
-      "start" : "node --harmony example/kitchensink/app.js",
-      "test" : "mocha"
-   },
-   "version" : "1.0.1"
+  "dependencies": {
+    "await-event": "",
+    "chanel": "",
+    "co-fs-plus": "",
+    "consolidate": "",
+    "debug": "",
+    "dustjs-helpers": "",
+    "dustjs-linkedin": "",
+    "koa": "",
+    "koa-compress": "",
+    "koa-conditional-get": "",
+    "koa-csrf": "",
+    "koa-etag": "",
+    "koa-favicon": "",
+    "koa-logger": "",
+    "koa-mount": "",
+    "koa-ratelimit": "",
+    "koa-render": "",
+    "koa-response-time": "",
+    "koa-rewrite": "",
+    "koa-route": "",
+    "koa-session": "",
+    "koa-static": "",
+    "lodash-contrib": ""
+  },
+  "description": "this is my opinion on koa and stuff",
+  "devDependencies": {
+    "chai": "",
+    "debug": "",
+    "istanbul": "",
+    "mocha": ""
+  },
+  "enginesStrict": {
+    "node": ">= 0.11.13"
+  },
+  "keywords": [
+    "opinion",
+    "koa",
+    "middleware",
+    "framework",
+    "boilerpalte"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "opinion",
+  "repository": "Empeeric/opinion",
+  "scripts": {
+    "cover": "istanbul cover node_modules/mocha/bin/mocha -x generated/**",
+    "start": "node --harmony example/kitchensink/app.js",
+    "test": "mocha"
+  },
+  "version": "1.0.2"
 }
