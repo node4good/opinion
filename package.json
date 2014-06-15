@@ -50,5 +50,5 @@
     "start": "node --harmony example/kitchensink/app.js",
     "test": "mocha"
   },
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
