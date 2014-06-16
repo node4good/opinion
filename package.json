@@ -2,6 +2,7 @@
   "dependencies": {
     "await-event": "",
     "chanel": "",
+    "co": "",
     "co-fs-plus": "",
     "consolidate": "",
     "debug": "",
@@ -20,12 +21,14 @@
     "koa-response-time": "",
     "koa-rewrite": "",
     "koa-router": "",
+    "koa-send": "",
     "koa-session": "",
     "koa-spdy-push": "",
     "koa-static": "",
     "lodash-contrib": "",
     "lusca": "",
-    "socket.io": ""
+    "socket.io": "",
+    "thunkify": ""
   },
   "description": "this is my opinion on koa and stuff",
   "devDependencies": {
