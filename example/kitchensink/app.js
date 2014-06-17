@@ -3,6 +3,7 @@ Error.stackTraceLimit = Infinity;
 process.chdir(__dirname);
 var opinion = require('../../');
 var conf = require('./conf');
+var request = require('request');
 
 var app = opinion({
     middlewareOrder: opinion.DEFAULT_MIDDLEWARE_STACK,
@@ -18,6 +19,15 @@ app.get('/',
         yield this.render('hello-world');
     }
 );
+
+
+app.get('/snippet/cors/:id', function* () {
+    this.set('Access-Control-Allow-Origin', '*');
+    this.set('Access-Control-Allow-Methods', 'GET');
+    this.set('Access-Control-Allow-Headers', 'Content-Type');
+    this.type = 'application/javascript';
+    this.body = request('https://gist.github.com/refack/' + this.params.id + '/raw');
+});
 
 
 app.listen(conf.PORT, function () {

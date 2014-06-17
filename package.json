@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "await-event": "",
+    "buffer-crc32": "",
     "chanel": "",
     "co": "",
     "co-fs-plus": "",
@@ -12,12 +13,8 @@
     "koa-compress": "",
     "koa-conditional-get": "",
     "koa-csrf": "",
-    "koa-etag": "",
     "koa-favicon": "",
     "koa-logger": "",
-    "koa-mount": "",
-    "koa-ratelimit": "",
-    "koa-render": "",
     "koa-response-time": "",
     "koa-rewrite": "",
     "koa-router": "",
@@ -27,6 +24,7 @@
     "koa-static": "",
     "lodash-contrib": "",
     "lusca": "",
+    "request": "",
     "socket.io": "",
     "thunkify": ""
   },
