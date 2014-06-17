@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Empeeric/formage.png?branch=master "Build Status")](https://travis-ci.org/Empeeric/formage) 
+[![Build Status](https://travis-ci.org/Empeeric/opinion.png?branch=master "Build Status")](https://travis-ci.org/Empeeric/opinion) 
 
 [![NPM](https://nodei.co/npm/opinion.png)](https://nodei.co/npm/opinion/) 
 
@@ -32,7 +32,8 @@ DEFAULT_MIDDLEWARE_STACK = {
     router: common.router
 };
 ```
-The request `ctx` has been extended with a `send` method to send files, and a `render` method to render views using any [`consolidate`](https://github.com/visionmedia/consolidate.js) compatible render engine, or plain `html` files. 
+The request `ctx` has been extended with a `send` method to send files, and a `render` method to render views using any [`consolidate`](https://github.com/visionmedia/consolidate.js) compatible render engine, or plain `html` files.  
+
 And as a extra bonus, `socket.io` is builtin and can be enabled by configuration flag.
 
 # Usage
