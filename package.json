@@ -13,6 +13,7 @@
     "koa-compress": "",
     "koa-conditional-get": "",
     "koa-csrf": "",
+    "koa-etag": "",
     "koa-favicon": "",
     "koa-logger": "",
     "koa-response-time": "",

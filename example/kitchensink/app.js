@@ -20,13 +20,20 @@ app.get('/',
     }
 );
 
+app.get('/2',
+    function* () {
+        this.type = 'text/html;charset=UTF-8';
+        this.body = request("http://www.example.com/");
+    }
+);
 
-app.get('/snippet/cors/:id', function* () {
+
+app.get('/snippet/:user/:id', function* () {
     this.set('Access-Control-Allow-Origin', '*');
     this.set('Access-Control-Allow-Methods', 'GET');
     this.set('Access-Control-Allow-Headers', 'Content-Type');
     this.type = 'application/javascript';
-    this.body = request('https://gist.github.com/refack/' + this.params.id + '/raw');
+    this.body = request('https://gist.github.com/' + this.params.user + '/' + this.params.id + '/raw');
 });
 
 

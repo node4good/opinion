@@ -1,14 +1,9 @@
 <component name="ProjectDictionaryState">
-  <dictionary name="Refael">
+  <dictionary name="refael">
     <words>
-      <w>csrf</w>
-      <w>etag</w>
-      <w>koacommon</w>
-      <w>koajs</w>
-      <w>ratelimit</w>
-      <w>tagline</w>
-      <w>templating</w>
-      <w>viewports</w>
+      <w>cors</w>
+      <w>gists</w>
+      <w>github's</w>
     </words>
   </dictionary>
 </component>
