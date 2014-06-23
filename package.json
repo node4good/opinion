@@ -27,7 +27,8 @@
     "lusca": "",
     "request": "",
     "socket.io": "",
-    "thunkify": ""
+    "thunkify": "",
+    "ws": "0.4.31"
   },
   "description": "this is my opinion on koa and stuff",
   "devDependencies": {
@@ -88,7 +89,7 @@
     "cover": "istanbul cover node_modules/mocha/bin/mocha -x generated/**",
     "mypublish": "npm shr && npm version patch && npm publish && git push --follow-tags",
     "start": "node --harmony example/kitchensink/app.js",
-    "test": "mocha"
+    "test": "mocha --harmony"
   },
   "version": "1.0.15"
 }
