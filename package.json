@@ -31,6 +31,7 @@
   },
   "description": "this is my opinion on koa and stuff",
   "devDependencies": {
+    "asynctrace": "",
     "chai": "",
     "istanbul": "",
     "mocha": ""
@@ -46,10 +47,13 @@
     "koa",
     "middleware",
     "framework",
-    "boilerpalte"
+    "boilerpalte",
+	"pret-a-porter",
+	"socketio",
+	"secure"
   ],
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "lib/OpinionApp.js",
   "name": "opinion",
   "repository": "Empeeric/opinion",
   "scripts": {
