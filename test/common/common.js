@@ -2,7 +2,7 @@
 Error.stackTraceLimit = Infinity;
 global._ = require('lodash-contrib');
 global.chai = require('chai');
-global.chai.Assertion.includeStack = true;
+global.chai.config.includeStack = false;
 global.expect = global.chai.expect;
 
 

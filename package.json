@@ -42,6 +42,34 @@
   "engines": {
     "node": "^0.11.13"
   },
+  "jsHintConfigurations": {
+    "esnext": true,
+    "expr": true,
+    "forin": true,
+    "freeze": true,
+    "globals": {
+      "Promise": true,
+      "after": true,
+      "before": true,
+      "describe": true,
+      "expect": true,
+      "it": true
+    },
+    "immed": true,
+    "maxdepth": 4,
+    "newcap": true,
+    "noarg": true,
+    "node": true,
+    "noempty": true,
+    "nonew": true,
+    "noyield": true,
+    "scripturl": true,
+    "sub": true,
+    "supernew": true,
+    "trailing": true,
+    "undef": true,
+    "unused": true
+  },
   "keywords": [
     "opinion",
     "koa",
