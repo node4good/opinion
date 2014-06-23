@@ -1,6 +1,6 @@
 {
   "name": "opinion",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "dependencies": {
     "await-event": {
       "version": "1.0.0",

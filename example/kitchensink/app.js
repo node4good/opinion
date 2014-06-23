@@ -1,7 +1,7 @@
 "use strict";
 require('asynctrace');
 process.chdir(__dirname);
-var opinion = require('../../');
+var opinion = require('../..');
 var conf = require('./conf');
 var request = require('request');
 

@@ -1,6 +1,6 @@
 "use strict";
 var _ = require('lodash-contrib');
-var common = require('./common');
+var common = require('./lib/common');
 
 
 

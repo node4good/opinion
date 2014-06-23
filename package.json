@@ -53,7 +53,7 @@
     "secure"
   ],
   "license": "MIT",
-  "main": "lib/OpinionApp.js",
+  "main": "OpinionApp.js",
   "name": "opinion",
   "repository": "Empeeric/opinion",
   "scripts": {
