@@ -48,9 +48,9 @@
     "middleware",
     "framework",
     "boilerpalte",
-	"pret-a-porter",
-	"socketio",
-	"secure"
+    "pret-a-porter",
+    "socketio",
+    "secure"
   ],
   "license": "MIT",
   "main": "lib/OpinionApp.js",
@@ -62,5 +62,5 @@
     "start": "node --harmony example/kitchensink/app.js",
     "test": "mocha"
   },
-  "version": "1.0.12"
+  "version": "1.0.13"
 }
