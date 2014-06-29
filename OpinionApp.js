@@ -5,6 +5,7 @@ var common = require('./lib/common');
 
 
 OpinionApp.DEFAULT_MIDDLEWARE_STACK = {
+    cls: common.cls,
     NoKeepAlive: common.NoKeepAlive,
     responseTime: common.responseTime,
     logger: common.logger,

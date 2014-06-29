@@ -1,6 +1,6 @@
 {
   "name": "opinion",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "dependencies": {
     "await-event": {
       "version": "1.0.0",
@@ -31,6 +31,37 @@
           "version": "1.0.1",
           "from": "to-descriptor@*",
           "resolved": "http://registry.npmjs.org/to-descriptor/-/to-descriptor-1.0.1.tgz"
+        }
+      }
+    },
+    "cls2": {
+      "version": "1.0.0",
+      "from": "cls2@",
+      "resolved": "https://registry.npmjs.org/cls2/-/cls2-1.0.0.tgz",
+      "dependencies": {
+        "async-listener": {
+          "version": "0.4.5",
+          "from": "async-listener@",
+          "resolved": "git+https://github.com/othiym23/async-listener.git#90eadc0e2894294167e084516a76875c573f4d02",
+          "dependencies": {
+            "shimmer": {
+              "version": "1.0.0",
+              "from": "shimmer@1.0.0",
+              "resolved": "http://registry.npmjs.org/shimmer/-/shimmer-1.0.0.tgz"
+            }
+          }
+        },
+        "emitter-listener": {
+          "version": "1.0.1",
+          "from": "emitter-listener@",
+          "resolved": "http://registry.npmjs.org/emitter-listener/-/emitter-listener-1.0.1.tgz",
+          "dependencies": {
+            "shimmer": {
+              "version": "1.0.0",
+              "from": "shimmer@1.0.0",
+              "resolved": "http://registry.npmjs.org/shimmer/-/shimmer-1.0.0.tgz"
+            }
+          }
         }
       }
     },
