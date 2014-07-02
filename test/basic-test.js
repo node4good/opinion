@@ -60,4 +60,26 @@ describe("the basic stuff", function () {
         });
         app.mock({url: '/gaga3a'}, done);
     });
+
+
+    it("should handle exception form async `connect` style middleware", function (done) {
+        var opinion = require('../');
+        var app = opinion();
+        app.onerror = function (err, ctx) {
+            ctx.res.headersSent = true;
+            expect(err).to.be.instanceof(Error);
+            done();
+        };
+        app.use(function (req, res, next) {
+            setImmediate(function () {
+                res.guli = true;
+                next(new Error('gaga3a'));
+            });
+        });
+        app.use(function (req, res, next, err) {
+            expect(res.guli).to.equal(true);
+            next();
+        });
+        app.mock({url: '/gaga3a'});
+    });
 });

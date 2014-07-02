@@ -29,7 +29,7 @@
     "lusca": "",
     "request": "",
     "socket.io": "",
-    "thunkify": "",
+    "thunkify": "http://registry.npmjs.org/thunkify/-/thunkify-0.0.1.tgz",
     "ws": "0.4.31"
   },
   "description": "this is my opinion on koa and stuff",
