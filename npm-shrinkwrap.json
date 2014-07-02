@@ -1,10 +1,10 @@
 {
   "name": "opinion",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "dependencies": {
     "asynctrace": {
-      "version": "1.2.5",
-      "from": "asynctrace@1.2.5",
+      "version": "1.2.6",
+      "from": "asynctrace@1.2.6",
       "dependencies": {
         "shimmer": {
           "version": "1.0.0",
