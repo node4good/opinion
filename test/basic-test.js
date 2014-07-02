@@ -23,4 +23,41 @@ describe("the basic stuff", function () {
             expect(app).to.have.property('webSockets');
         });
     });
+
+
+    it("should allow `connect` style middleware", function (done) {
+        var opinion = require('../');
+        var app = opinion();
+        app.onerror = function (err, ctx) {
+            ctx.res.headersSent = true;
+            console.log('context got error - ', ctx.url);
+            throw err;
+        };
+        app.use(function (req, res, next) {
+            next();
+        });
+        app.mock({url: '/gaga3'}, done);
+    });
+
+
+    it("should allow async `connect` style middleware", function (done) {
+        var opinion = require('../');
+        var app = opinion();
+        app.onerror = function (err, ctx) {
+            ctx.res.headersSent = true;
+            console.log('context got error - ', ctx.url);
+            throw err;
+        };
+        app.use(function (req, res, next) {
+            setImmediate(function () {
+                res.guli = true;
+                next();
+            });
+        });
+        app.use(function (req, res, next) {
+            expect(res.guli).to.equal(true);
+            next();
+        });
+        app.mock({url: '/gaga3a'}, done);
+    });
 });

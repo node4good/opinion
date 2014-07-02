@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "asynctrace": "",
     "await-event": "",
     "buffer-crc32": "",
     "chanel": "",
@@ -55,7 +56,9 @@
       "before": true,
       "describe": true,
       "expect": true,
-      "it": true
+      "it": true,
+      "_": true,
+      "co": true
     },
     "immed": true,
     "maxdepth": 4,
