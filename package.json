@@ -34,7 +34,6 @@
   },
   "description": "this is my opinion on koa and stuff",
   "devDependencies": {
-    "asynctrace": "",
     "chai": "",
     "istanbul": "",
     "mocha": ""

@@ -1,7 +1,23 @@
 {
   "name": "opinion",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "dependencies": {
+    "asynctrace": {
+      "version": "1.2.5",
+      "from": "asynctrace@1.2.5",
+      "dependencies": {
+        "shimmer": {
+          "version": "1.0.0",
+          "from": "shimmer@latest",
+          "resolved": "http://registry.npmjs.org/shimmer/-/shimmer-1.0.0.tgz"
+        },
+        "async-listener": {
+          "version": "0.4.5",
+          "from": "git+https://github.com/othiym23/async-listener.git",
+          "resolved": "git+https://github.com/othiym23/async-listener.git#90eadc0e2894294167e084516a76875c573f4d02"
+        }
+      }
+    },
     "await-event": {
       "version": "1.0.0",
       "from": "await-event@",
