@@ -1,7 +1,8 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="tester1" type="NodeJSConfigurationType" factoryName="Node.js" singleton="true" path-to-node="$NODE_PATH$/node" path-to-js-file="example/kitchensink/app.js" node-parameters="--harmony" working-dir="$PROJECT_DIR$/">
     <envs>
-      <env name="DEBUG" value="*" />
+      <env name="NODE_DEBUG" value="opinion" />
+      <env name="DEBUG" value="socket.io*" />
     </envs>
     <RunnerSettings RunnerId="NodeJS.debug" />
     <RunnerSettings RunnerId="NodeJS.run" />

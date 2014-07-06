@@ -3,8 +3,8 @@
   "version": "1.0.23",
   "dependencies": {
     "asynctrace": {
-      "version": "1.2.6",
-      "from": "asynctrace@1.2.6",
+      "version": "1.2.7",
+      "from": "asynctrace@1.2.7",
       "dependencies": {
         "shimmer": {
           "version": "1.0.0",
@@ -852,15 +852,15 @@
           "from": "debug@0.7.4",
           "resolved": "http://registry.npmjs.org/debug/-/debug-0.7.4.tgz"
         },
-        "isarray": {
-          "version": "0.0.1",
-          "from": "isarray@0.0.1",
-          "resolved": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
-        },
         "indexof": {
           "version": "0.0.1",
           "from": "indexof@0.0.1",
           "resolved": "http://registry.npmjs.org/indexof/-/indexof-0.0.1.tgz"
+        },
+        "isarray": {
+          "version": "0.0.1",
+          "from": "isarray@0.0.1",
+          "resolved": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
         },
         "json3": {
           "version": "3.2.6",
