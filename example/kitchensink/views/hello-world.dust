@@ -14,7 +14,7 @@
 {<scripts}
 <script>
     var $push_target = $('#push_target');
-    var sock = io();
+    var sock = io({transports: ['websocket']});
     sock.on('gaga', function (data) {
         $push_target.text(data);
     });

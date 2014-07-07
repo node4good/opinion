@@ -11,7 +11,7 @@ global.mock_req_proto = {
     query: {},
     headers: {},
     connection: {},
-    admin_user: {hasPermissions: function (model, action) {return true}}
+    admin_user: {hasPermissions: function () {return true;}}
 };
 
 
@@ -35,7 +35,7 @@ global.mock_res_proto = {
 
 
 global.makeRes = function makeRes(req, done) {
-    var res = _.defaults({ req: req }, mock_res_proto);
+    var res = _.defaults({ req: req }, global.mock_res_proto);
     res.send = function (status, err) {done(err);};
     return res;
 };
