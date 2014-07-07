@@ -33,7 +33,7 @@
   },
   "description": "this is my opinion on koa and stuff",
   "devDependencies": {
-	"asynctrace": "",
+    "asynctrace": "",
     "chai": "",
     "istanbul": "",
     "mocha": ""
@@ -95,5 +95,5 @@
     "start": "node --harmony example/kitchensink/app.js",
     "test": "mocha --harmony"
   },
-  "version": "1.0.24"
+  "version": "1.0.25"
 }
