@@ -1,6 +1,6 @@
 {
   "name": "opinion",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "dependencies": {
     "await-event": {
       "version": "1.0.0",
@@ -122,19 +122,12 @@
     "dustjs-helpers": {
       "version": "1.2.0",
       "from": "http://registry.npmjs.org/dustjs-helpers/-/dustjs-helpers-1.2.0.tgz",
-      "resolved": "http://registry.npmjs.org/dustjs-helpers/-/dustjs-helpers-1.2.0.tgz",
-      "dependencies": {
-        "dustjs-linkedin": {
-          "version": "2.3.5",
-          "from": "http://registry.npmjs.org/dustjs-linkedin/-/dustjs-linkedin-2.3.5.tgz",
-          "resolved": "http://registry.npmjs.org/dustjs-linkedin/-/dustjs-linkedin-2.3.5.tgz"
-        }
-      }
+      "resolved": "http://registry.npmjs.org/dustjs-helpers/-/dustjs-helpers-1.2.0.tgz"
     },
     "dustjs-linkedin": {
-      "version": "2.4.0",
-      "from": "http://registry.npmjs.org/dustjs-linkedin/-/dustjs-linkedin-2.4.0.tgz",
-      "resolved": "http://registry.npmjs.org/dustjs-linkedin/-/dustjs-linkedin-2.4.0.tgz"
+      "version": "2.3.5",
+      "from": "dustjs-linkedin@2.3.5",
+      "resolved": "http://registry.npmjs.org/dustjs-linkedin/-/dustjs-linkedin-2.3.5.tgz"
     },
     "koa": {
       "version": "0.8.1",
@@ -169,11 +162,6 @@
               "resolved": "https://registry.npmjs.org/media-typer/-/media-typer-0.2.0.tgz"
             }
           }
-        },
-        "mime-types": {
-          "version": "1.0.1",
-          "from": "http://registry.npmjs.org/mime-types/-/mime-types-1.0.1.tgz",
-          "resolved": "http://registry.npmjs.org/mime-types/-/mime-types-1.0.1.tgz"
         },
         "finished": {
           "version": "1.2.2",
@@ -370,11 +358,6 @@
       "from": "http://registry.npmjs.org/koa-spdy-push/-/koa-spdy-push-0.3.0.tgz",
       "resolved": "http://registry.npmjs.org/koa-spdy-push/-/koa-spdy-push-0.3.0.tgz",
       "dependencies": {
-        "mime-types": {
-          "version": "1.0.1",
-          "from": "http://registry.npmjs.org/mime-types/-/mime-types-1.0.1.tgz",
-          "resolved": "http://registry.npmjs.org/mime-types/-/mime-types-1.0.1.tgz"
-        },
         "bluebird": {
           "version": "2.1.3",
           "from": "http://registry.npmjs.org/bluebird/-/bluebird-2.1.3.tgz",
@@ -403,6 +386,11 @@
       "version": "1.0.1",
       "from": "https://registry.npmjs.org/lusca/-/lusca-1.0.1.tgz",
       "resolved": "https://registry.npmjs.org/lusca/-/lusca-1.0.1.tgz"
+    },
+    "mime-types": {
+      "version": "1.0.1",
+      "from": "mime-types@1.0.1",
+      "resolved": "http://registry.npmjs.org/mime-types/-/mime-types-1.0.1.tgz"
     },
     "request": {
       "version": "2.36.0",
