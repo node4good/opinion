@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "asynctrace": "",
     "await-event": "",
     "buffer-crc32": "",
     "chanel": "",
@@ -34,6 +33,7 @@
   },
   "description": "this is my opinion on koa and stuff",
   "devDependencies": {
+	"asynctrace": "",
     "chai": "",
     "istanbul": "",
     "mocha": ""
@@ -57,7 +57,8 @@
       "expect": true,
       "it": true,
       "_": true,
-      "co": true
+      "co": true,
+      "thunkify": true
     },
     "immed": true,
     "maxdepth": 4,
