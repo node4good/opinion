@@ -41,5 +41,5 @@ app.listen(conf.PORT, function () {
 
 
 setInterval(function () {
-    app.webSockets.emit('gaga', JSON.stringify(process.memoryUsage()))
+    app.webSockets.emit('gaga', new Date + '\n' + JSON.stringify(process.memoryUsage()));
 }, 3000);

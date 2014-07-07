@@ -5,7 +5,10 @@
         <div id="heading">
             <h1 id="logo">Koa Opinions</h1>
             <p id="tagline">koa, ready to use, and that my opinion!</p>
-            <p>Here you can see live memory stats pushed from the server <span id="push_target">###</span></p>
+            <p>Here you can see live memory stats pushed from the server
+                <br />
+                <span id="push_target">###</span>
+            </p>
             <p>and a nice example of a streaming CORS enabled proxy <a href="/snippet/refack/8541626">to github's gists</a></p>
         </div>
     </section>
@@ -14,7 +17,7 @@
 {<scripts}
 <script>
     var $push_target = $('#push_target');
-    var sock = io({transports: ['websocket']});
+    var sock = io({ transports: ['websocket'] });
     sock.on('gaga', function (data) {
         $push_target.text(data);
     });
