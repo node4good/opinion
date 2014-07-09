@@ -4,7 +4,7 @@
 
 # koa opinions
 
-Originally forked from `koajs/common` 
+Originally forked from [`koajs/common`](https://github.com/koajs/common) 
 
 
 ## Installation
@@ -15,7 +15,7 @@ $ npm install opinion
 
 ## default configuration
 
-First of all we have a builtin [routing mechanism](https://github.com/alexmingoia/koa-router)
+  a builtin [routing mechanism](https://github.com/alexmingoia/koa-router)
 
 An extensive default middleware stack
 ```js

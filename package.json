@@ -11,6 +11,8 @@
     "dustjs-helpers": "",
     "dustjs-linkedin": "",
     "koa": "",
+    "koa-mount": "",
+    "koa-ratelimit": "",
     "koa-compress": "",
     "koa-conditional-get": "",
     "koa-csrf": "",
@@ -28,15 +30,17 @@
     "lusca": "",
     "request": "",
     "socket.io": "",
-    "thunkify": "http://registry.npmjs.org/thunkify/-/thunkify-0.0.1.tgz",
-    "ws": "0.4.31"
+    "thunkify": "",
+    "ws": ""
   },
   "description": "this is my opinion on koa and stuff",
   "devDependencies": {
     "asynctrace": "",
     "chai": "",
     "istanbul": "",
-    "mocha": ""
+    "mocha": "",
+    "grunt": "",
+    "grunt-contrib-concat": ""
   },
   "enginesStrict": {
     "node": "^0.11.13"

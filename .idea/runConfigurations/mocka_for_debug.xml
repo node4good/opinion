@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="mocka for debug" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="$NODE_PATH$/node" path-to-js-file="node_modules/mocha/bin/_mocha" application-parameters="-C --no-exit test" node-parameters="--harmony" working-dir="$PROJECT_DIR$">
+    <RunnerSettings RunnerId="NodeJS.debug" />
+    <RunnerSettings RunnerId="NodeJS.run" />
+    <ConfigurationWrapper RunnerId="NodeJS.debug" />
+    <ConfigurationWrapper RunnerId="NodeJS.run" />
+    <method />
+  </configuration>
+</component>

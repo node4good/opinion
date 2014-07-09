@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="grunt for debug" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="$NODE_PATH$/node" path-to-js-file="$NODE_PATH$/node_modules/grunt-cli/bin/grunt" application-parameters="--verbose" node-parameters="--harmony" working-dir="$PROJECT_DIR$">
+    <RunnerSettings RunnerId="NodeJS.debug" />
+    <RunnerSettings RunnerId="NodeJS.run" />
+    <ConfigurationWrapper RunnerId="NodeJS.debug" />
+    <ConfigurationWrapper RunnerId="NodeJS.run" />
+    <method />
+  </configuration>
+</component>
