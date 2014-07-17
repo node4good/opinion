@@ -28,11 +28,6 @@ describe("the basic stuff", function () {
     it("should allow `connect` style middleware", function (done) {
         var opinion = require('../');
         var app = opinion();
-        app.onerror = function (err, ctx) {
-            ctx.res.headersSent = true;
-            console.log('context got error - ', ctx.url);
-            throw err;
-        };
         app.use(function (req, res, next) {
             next();
         });
@@ -43,11 +38,6 @@ describe("the basic stuff", function () {
     it("should allow async `connect` style middleware", function (done) {
         var opinion = require('../');
         var app = opinion();
-        app.onerror = function (err, ctx) {
-            ctx.res.headersSent = true;
-            console.log('context got error - ', ctx.url);
-            throw err;
-        };
         app.use(function (req, res, next) {
             setImmediate(function () {
                 res.guli = true;
@@ -66,8 +56,8 @@ describe("the basic stuff", function () {
         var opinion = require('../');
         var app = opinion();
         app.onerror = function (err, ctx) {
-            ctx.res.headersSent = true;
-            expect(err).to.be.instanceof(Error);
+            expect(err).to.be.instanceof(Error).property('message').equal('gaga3a');
+            ctx.res.end();
             done();
         };
         app.use(function (req, res, next) {
@@ -76,7 +66,7 @@ describe("the basic stuff", function () {
                 next(new Error('gaga3a'));
             });
         });
-        app.use(function (req, res, next, err) {
+        app.use(function (req, res, next) {
             expect(res.guli).to.equal(true);
             next();
         });
