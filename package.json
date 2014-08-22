@@ -99,5 +99,5 @@
     "start": "node --harmony example/kitchensink/app.js",
     "test": "mocha --harmony"
   },
-  "version": "1.0.33"
+  "version": "1.0.34"
 }
