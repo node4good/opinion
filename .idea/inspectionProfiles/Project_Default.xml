@@ -11,13 +11,6 @@
       <option name="myStrictlyCheckGlobalDefinitions" value="true" />
     </inspection_tool>
     <inspection_tool class="JSUnusedGlobalSymbols" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="TaskInspection" enabled="true" level="INFO" enabled_by_default="true">
-      <option name="suppressedTasks">
-        <set>
-          <option value="Traceur compiler" />
-        </set>
-      </option>
-    </inspection_tool>
     <inspection_tool class="UnnecessaryLocalVariableJS" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="m_ignoreImmediatelyReturnedVariables" value="true" />
       <option name="m_ignoreAnnotatedVariables" value="false" />
