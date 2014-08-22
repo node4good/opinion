@@ -95,7 +95,7 @@
   "repository": "Empeeric/opinion",
   "scripts": {
     "cover": "istanbul cover node_modules/mocha/bin/mocha -x generated/**",
-    "mypublish": "npm version patch && npm publish && git push --follow-tags",
+    "mypublish": "npm version patch --version-with-shrinkwrap && npm publish && git push --follow-tags",
     "start": "node --harmony example/kitchensink/app.js",
     "test": "mocha --harmony"
   },
